@@ -25,6 +25,11 @@ repositories {
     mavenCentral()
 }
 
+task jenkinstest() {
+    doLast {
+        println 'jenkinstest - ok'
+    }
+}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
